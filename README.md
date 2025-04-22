@@ -10,8 +10,8 @@ This project implements a user-level threading system in C with:
 ## Compilation
 
 ```bash
-gcc -o thread_demo main.c uthreads.c
-./thread_demo
+gcc -Wall -g uthreads.c main.c -o uthreads_test
+./uthreads.test
 
 ```
 ## Purpose
