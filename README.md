@@ -11,8 +11,10 @@ This project implements a user-level threading system in C with:
 
 ```bash
 gcc -Wall -g uthreads.c main.c -o uthreads_test
-./uthreads.test
+```
 
+```bash
+./uthreads.test
 ```
 ## Purpose
 This project simulates how operating systems manage thread scheduling, providing an understanding of context switching and signal safety.
